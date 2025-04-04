@@ -1,1 +1,136 @@
+body{
+    background-color: aliceblue;  /* Aliceblue background */
+    font-family: Arial, sans-serif;  /* Font style */
+    margin: 0;  /* Remove default margin */
+    padding: 0;  /* Remove default padding */
+    color: cadetblue;  /* Text color */
+    font-size: 16px;  /* Font size */
+}
 
+.portfolio-header img{
+    width: 75px;  /* Width of the image */
+    height: 75px;  /* Height of the image */
+    border-style: none; /* No border style */
+    margin-right: 20px;  /* Space between image and text */
+    border: 2px solid cornsilk;  /* Border around the image */
+    object-fit: cover;  /* Cover the image area */
+}
+
+header{
+    background-color: cadetblue;  /* Header background color */
+    color: black;  /* Header text color */
+    padding: 10px;  /* Padding inside the header */
+    text-align: center;  /* Center text in header */
+}
+
+h1{
+    color: black;  /* Color of h1 elements */
+    font-size: 36px;  /* Font size of h1 elements */
+    margin: 0;  /* Remove default margin */
+}
+
+h3{
+    color: black;  /* Color of h3 elements */
+    font-size: 24px;  /* Font size of h3 elements */
+    margin: 0;  /* Remove default margin */
+}
+
+nav ul li{
+    color: darkslategrey;
+}
+nav ul li a{
+    text-decoration: none;  /* Remove underline from links */
+    color: darkslategrey;  /* Link color */
+    font-size: 16px;  /* Font size of links */
+}
+
+section{
+    margin: 5px;  /* Margin around sections */
+    padding: 5px;  /* Padding inside sections */
+    background-color: white;  /* Section background color */
+    border-radius: 5px;  /* Rounded corners */
+}
+
+p, li{
+    color: darkslategrey;  /* Text color for paragraphs and list items */
+    font-size: 12px;  /* Font size for paragraphs and list items */
+    line-height: 1.0;  /* Line height for readability */
+}
+
+.about ,.skills, .education{
+    background-color: white;  /* Background color for sections */
+    display: grid; /* Grid layout for sections */
+    padding: 20px;  /* Padding inside sections */
+    flex-wrap: wrap;  /* Allow items to wrap to the next line */
+    justify-content: center;  /* Center items horizontally */
+    margin-top: 20px;  /* Margin above certifications */
+}
+
+.contact{
+    background-color: white;  /* Background color for contact section */
+    display: grid;  /* Grid layout for contact section */
+    padding: 20px;  /* Padding inside contact section */
+    flex-wrap: wrap;  /* Allow items to wrap to the next line */
+    justify-content: center;  /* Center items horizontally */
+    margin-top: 20px;  /* Margin above certifications */
+} 
+
+.certifications{
+    display:grid  /* Grid layout for certifications */
+    justify-content: center;  /* Center items horizontally */
+    margin-top: 20px;  /* Margin above certifications */ 
+    border: 3px solid cadetblue;  /* Border around certifications */
+    padding: 20px;  /* Padding inside certifications */
+}
+.socials-button img{
+    width: 35px;  /* Width of social media icons */
+    height: 35px;  /* Height of social media icons */
+    margin: 5px;  /* Margin around icons */
+    border-radius: 50%;  /* Circular icons */
+    transition: transform 0.3s;  /* Transition effect for hover */
+}
+
+.socials-button img:hover{
+    transform: scale(1.1);  /* Scale up on hover */
+}
+
+.socials-icon{
+    display: flex;  /* Flexbox layout for social icons */
+    justify-content: center;  /* Center items horizontally */
+    align-items: center;  /* Center items vertically */
+    margin-top: 20px;  /* Margin above social icons */
+}
+
+.socials-icon a{
+    text-decoration: none;  /* Remove underline from links */
+    color: darkslategrey;  /* Link color */
+    font-size: 16px;  /* Font size of links */
+}
+
+.socials-icon img{
+    width: 20px;  /* Width of social media icons */
+    height: 20px;  /* Height of social media icons */
+    margin: 5px;  /* Margin around icons */
+    border-radius: 50%;  /* Circular icons */
+    transition: transform 0.3s;  /* Transition effect for hover */
+}
+.socials-icon img:hover{
+    transform: scale(1.1);  /* Scale up on hover */
+}
+
+footer{
+    background-color: cadetblue;  /* Footer background color */
+    color: black;  /* Footer text color */
+    padding: 10px;  /* Padding inside the footer */
+    text-align: center;  /* Center text in footer */
+    position: fixed;  /* Fixed position at the bottom */
+    bottom: 0;  /* Align to the bottom of the page */
+    width: 100%;  /* Full width of the page */
+}
+
+#skills ul{
+    display: grid;  /* Grid layout for skills */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /* Responsive grid */
+    padding: 0;  /* Remove default padding */
+    margin: 0;  /* Remove default margin */
+}
